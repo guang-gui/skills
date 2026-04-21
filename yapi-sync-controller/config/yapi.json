@@ -1,0 +1,5 @@
+{
+  "baseUrl": "yapi地址",
+  "token": "yapi token",
+  "projectId": 项目ID
+}

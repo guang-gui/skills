@@ -1,0 +1,7 @@
+interface:
+  display_name: "YApi Sync Controller"
+  short_description: "Sync one Java controller to YApi from source."
+  default_prompt: "Use $yapi-sync-controller to sync a specific Spring controller to YApi from Java source."
+
+policy:
+  allow_implicit_invocation: true

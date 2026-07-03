@@ -1,0 +1,35 @@
+{
+  "connections": {
+    "mysql": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "root",
+      "password": "your_password",
+      "databases": {
+        "别名": "order_db",
+        "别名": "user_db",
+        "别名": "product_db",
+        "别名": "store_db"
+      }
+    },
+    "ocean": {
+      "host": "192.168.1.100",
+      "port": 2881,
+      "user": "root@tenant1",
+      "password": "your_password",
+      "databases": {
+        "report": "report_db",
+        "analytics": "analytics_db"
+      }
+    },
+    "doris": {
+      "host": "192.168.1.200",
+      "port": 9030,
+      "user": "root",
+      "password": "your_password",
+      "databases": {
+        "bi": "bi_warehouse"
+      }
+    }
+  }
+}
